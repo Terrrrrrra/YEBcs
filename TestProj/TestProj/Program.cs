@@ -7,82 +7,39 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            int num1 = Calc1(7);
-            print(num1);
+            // 클래스 == 설계도
+            // 객체 == 설계도를 통해 실제 존재하는것을 만든것
 
-            int num2 = Calc1(4);
-            print(num2);
+            //List<int> intList = new List<int>();
+            Cat();
 
-            int num3 = Calc2(24, 13);
-            print(num3);
+            // Car 는 클래스
+            // 클래스 뒤에 ()는 생성자
+            // new Car() 는 Car 타입 객체를 새로 생성한다는 의미
+
+            Car mycar = new Car();
+
+            // double = 8바이트, float = 4바이트
+            // double -> float 바로 전환 안됨, 숫자뒤에 f 붙여주기
+
+            mycar.PrintInfo();
+
+            mycar.Tire = 4;
+            mycar.Speed = 50.3f;
+            mycar.Cost = 10_000_000.5;
+            mycar.Name = "기아자동차";
+
+            mycar.PrintInfo();
+            //print(mycar.Tire);
+            //print(mycar.Speed);
+            //print(mycar.Cost);
+            //print(mycar.Name);
         }
-
-        static int Calc2(int a, int b)
-        {
-            return a + b;
-        }
-
-        static int Calc1(int a)
-        {
-            int b = a + a;
-            return b;
-        }
-
-        static int GetNumber()
-        {
-            int a = 12;
-            int b = 25;
-            int c = a + b;
-            return c;
-        }
-
-
-        static void Dog()
-        {
-            print("강아지는....");
-            return;
-            print("멍멍!");
-        }
-
 
         static void Cat()
         {
             print("고양이는 야옹야옹");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         static void print(object obj)
         {
