@@ -1,0 +1,7 @@
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\bin\Debug\TestProj.exe.config
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\bin\Debug\TestProj.exe
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\bin\Debug\TestProj.pdb
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.csproj.AssemblyReference.cache
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.csproj.CoreCompileInputs.cache
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.exe
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.pdb
