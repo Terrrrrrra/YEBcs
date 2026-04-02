@@ -5,3 +5,4 @@ C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj
 C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.csproj.CoreCompileInputs.cache
 C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.exe
 C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.pdb
+C:\Users\jksjk\OneDrive\바탕 화면\YEBcs\TestProj\TestProj\obj\Debug\TestProj.exe.config

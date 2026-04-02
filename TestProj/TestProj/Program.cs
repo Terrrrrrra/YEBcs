@@ -7,42 +7,19 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            List<string> names = new List<string>();
-            names.Add("철수");
-            names.Add("영희");
-            names.Add("민수");
-            names.Add("맹구");
-            names.Add("짱구");
+            int num1 = 12;
 
-            for (int i = 0; i < names.Count; i++)
+            Console.WriteLine($"저는 {num1}살 입니다.");
+
+
+            for (int i = 0; i < 9; i++)
             {
-                Console.WriteLine(names[i]);
+                Console.WriteLine($"그로부터 {i}년이 지났습니다..");
             }
-            // 철수, 영희, 민수, 맹구, 짱구
-            Console.WriteLine("==========================");
 
-            names.Remove("맹구");
-
-            for (int i = 0; i < names.Count; i++)
-            {
-                Console.WriteLine(names[i]);
-            }
-            // 철수, 영희, 민수, 짱구
-            Console.WriteLine("==========================");
-
-            names.RemoveAt(1);
-
-            for (int i = 0; i < names.Count; i++)
-            {
-                Console.WriteLine(names[i]);
-            }
-            // 철수, 민수, 짱구
-            Console.WriteLine("==========================");
-
-            /*foreach (string name in names)
-            {
-                Console.Write(name);
-            }*/
+            Console.Write("숫자를 입력하세요 : ");
+            int inputNum = int.Parse(Console.ReadLine());
+            Console.WriteLine($"입력받은 숫자는 {inputNum}입니다.");
         }
     }
 }
