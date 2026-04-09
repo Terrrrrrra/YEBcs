@@ -7,26 +7,25 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
+            // 스태틱 메소드는 클래스 이름으로 바로 호출 가능
+            print(Calculator.CalcSum(234, 120));
 
-            Pokemon pokemon1 = new Pokemon("파이리", 100, 200);
-            Pokemon pokemon2 = new Pokemon("피카츄", 80, 250.5f);
-            Pokemon pokemon3 = new Pokemon("꼬부기", 150, 145.8f);
-            //curPokemon.Name = "파이리";
-            //curPokemon.Hp = 100;
+            // Calculator.CalcPow(4, 7); 스태틱 메소드가 아니라서 바로 호출 불가능
+            // 객체생성후에 함수호출
 
-            List<Pokemon> pokemonList = new List<Pokemon>();
-            pokemonList.Add(pokemon1);
-            pokemonList.Add(pokemon2);
-            pokemonList.Add(pokemon3);
+            // 스태틱이 아닌 것들은 전부 다이나믹
+            // 다이나믹 메소드는 객체 생성 후에 호출가능
+            Calculator calcObj = new Calculator();
+            print(calcObj.CalcPow(4, 7));
+            // calcObj.CalcSum(40, 55);
 
-            for (int i = 0; i < pokemonList.Count; i++)
-            {
-                pokemonList[i].Skill();
-            }
+            // 스태틱은 변수에도 붙을 수 있음
+            print(Calculator.PI);
         }
 
         static void print(object obj)
         {
+            // WriteLine 메소드가 스태틱 메소드이기떄문에 클래스이름을 통해 바로호출가능
             Console.WriteLine(obj.ToString());
         }
     }
