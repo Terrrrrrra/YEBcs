@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\chicken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\chicken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\testproj\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,20 +70,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Chicken.cs",
+              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Chicken.cs",
+              "RelativeDocumentMoniker": "TestProj\\Chicken.cs",
+              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Chicken.cs",
+              "RelativeToolTip": "TestProj\\Chicken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:44:46.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Dog.cs",
+              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Dog.cs",
+              "RelativeDocumentMoniker": "TestProj\\Dog.cs",
+              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Dog.cs",
+              "RelativeToolTip": "TestProj\\Dog.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:43:32.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Animal.cs",
+              "RelativeDocumentMoniker": "TestProj\\Animal.cs",
+              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Animal.cs",
+              "RelativeToolTip": "TestProj\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:28:23.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Pokemon.cs",
               "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Pokemon.cs",
               "RelativeDocumentMoniker": "TestProj\\Pokemon.cs",
               "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Pokemon.cs",
               "RelativeToolTip": "TestProj\\Pokemon.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T09:17:13.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Calculator.cs",
               "RelativeDocumentMoniker": "TestProj\\Calculator.cs",
@@ -84,13 +135,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs",
               "RelativeDocumentMoniker": "TestProj\\Program.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs*",
-              "RelativeToolTip": "TestProj\\Program.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAswCkAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs",
+              "RelativeToolTip": "TestProj\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T08:20:38.358Z",
               "EditorCaption": ""
