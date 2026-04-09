@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using TestProj2;
 
 namespace TestProj
 {
@@ -8,23 +7,28 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            Dog dog = new Dog("허스키", 4, "멍멍");
+            List<int> numPool = new List<int>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-            Chicken chicken = new Chicken("토종닭", 2, "꼬끼오");
+            Random rd = new Random();
+            int[] selectNumArr = new int[3];
+            // cur : 현재, Pre : 과거, next : 미래
+            int curIndex = rd.Next(0, numPool.Count); // numPool에서 랜덤한 숫자를 정하고 numPool.Count == 10
+            selectNumArr[0] = numPool[curIndex]; // numPool에서 정한 숫자를 넣음
+            numPool.Remove(numPool[curIndex]); // numPool에서 정한 숫자를 지움
 
-            dog.PrintInfo();
-            chicken.PrintInfo();
+            curIndex = rd.Next(0, numPool.Count); // numPool.Count == 9
+            selectNumArr[1] = numPool[curIndex];
+            numPool.Remove(numPool[curIndex]);
 
-            // public 은 언제 어디서나 접근가능
-            string dogInfo = dog.Info;
-            dog.ShowInfo();
-            // private 은 외부에서 접근불가
-            // string dogInfo2 = dog.Info2;
-            // protected 은 외부에서 접근불가
-            // dog.Info3
+            curIndex = rd.Next(0, numPool.Count);
+            selectNumArr[2] = rd.Next(0, 10);
 
-            InternalTest internalTest = new InternalTest();
-            Console.WriteLine(internalTest.Info4);
+            Console.WriteLine(selectNumArr[0]);
+            Console.WriteLine(selectNumArr[1]);
+            Console.WriteLine(selectNumArr[2]);
+
+            Console.Write("숫자를 입력하세요 : ");
+            string input = Console.ReadLine();
         }
 
 
