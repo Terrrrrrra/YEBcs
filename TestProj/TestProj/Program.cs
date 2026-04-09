@@ -7,21 +7,65 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            // 스태틱 메소드는 클래스 이름으로 바로 호출 가능
-            print(Calculator.CalcSum(234, 120));
+            int[] intArr1 = new int[2];
+            intArr1[0] = 23;
+            intArr1[1] = 34;
 
-            // Calculator.CalcPow(4, 7); 스태틱 메소드가 아니라서 바로 호출 불가능
-            // 객체생성후에 함수호출
+            int[] intArr2 = new int[] { 123, 234, 345 };
 
-            // 스태틱이 아닌 것들은 전부 다이나믹
-            // 다이나믹 메소드는 객체 생성 후에 호출가능
-            Calculator calcObj = new Calculator();
-            print(calcObj.CalcPow(4, 7));
-            // calcObj.CalcSum(40, 55);
+            List<int> intList1 = new List<int>();
+            intList1.Add(23);
+            intList1.Add(34);
 
-            // 스태틱은 변수에도 붙을 수 있음
-            print(Calculator.PI);
+            List<int> intList2 = new List<int>() { 123, 234, 345 };
+
+            // ------------------------------------------------------------------
+            // 씨샵의 딕셔너리 자료형
+            // 딕셔너리의 특징 - 키,값 쌍
+            Dictionary<int, string> myDict = new Dictionary<int, string>();
+
+            myDict[2002] = "월드컵 4강간날";
+            myDict[2020] = "코로나 창궐";
+            myDict[1945] = "대한민국 독립일";
+
+            print(myDict[2020]);
+            print(myDict[2002]);
+            //print(myDict[500]);
+
+            print($"500번 키 있음? : {myDict.ContainsKey(500)}");
+            print($"2002번 키 있음? : {myDict.ContainsKey(2002)}");
+
+            int key = 2002;
+            if (myDict.ContainsKey(key))
+            {
+                print(myDict[key]);
+            }
+
+            // ------------------------------------------------------------
+            print("=================================================================");
+
+            Dictionary<string, Pokemon> pokemonDict = new Dictionary<string, Pokemon>();
+
+            pokemonDict["야도란"] = new Pokemon("야도란", 100, 100);
+            pokemonDict["구구"] = new Pokemon("구구", 50, 50);
+            pokemonDict["딥상어동"] = new Pokemon("딥상어동", 120, 110);
+
+            pokemonDict["야도란"].Skill();
+
+            print(pokemonDict["딥상어동"].Hp);
+
+            print($"두리쥐 있나요? : {pokemonDict.ContainsKey("두리쥐")}");
+            print($"구구 있나요? : {pokemonDict.ContainsKey("구구")}");
         }
+
+
+
+
+
+
+
+
+
 
         static void print(object obj)
         {
