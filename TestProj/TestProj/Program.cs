@@ -6,32 +6,19 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Error2();
-            }
-            catch
-            {
-                print("에러발생, Main에서 처리");
-            }
+            Dog dog = new Dog();
+            // dog.MoveTail();
+            Animal animal1 = dog;
+
+            NumberBassball.Hello();
+
+            NumberBassball numberBassball = new NumberBassball();
+            numberBassball.Run();
         }
 
-        static void Error1()
-        {
-            throw new Exception();
-        }
 
-        static void Error2()
-        {
-            try
-            {
-                Error1();
-            }
-            catch
-            {
-                print("에러발생, Error2에서 처리");
-            }
-        }
+
+
 
         static void print(object obj)
         {

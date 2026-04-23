@@ -29,6 +29,22 @@ namespace TestProj
                 Console.Write("숫자를 입력하세요 : ");
                 string input = Console.ReadLine();
 
+                try
+                {
+                    int inputNum = int.Parse(input);
+                }
+                catch (FormatException e)
+                {
+                    print("숫자로 입력해주세요!");
+                    continue;
+                }
+
+                if(input.Length != 3)
+                {
+                    print("3자리로 입력해주세요!");
+                    continue;
+                }
+
                 int num1 = input[0] - '0';
                 int num2 = input[1] - '0';
                 int num3 = input[2] - '0';
@@ -120,6 +136,11 @@ namespace TestProj
         {
             // WriteLine 메소드가 스태틱 메소드이기떄문에 클래스이름을 통해 바로호출가능
             Console.WriteLine(obj.ToString());
+        }
+
+        static internal void Hello()
+        {
+            Console.WriteLine("안녕하세요");
         }
     }
 }
