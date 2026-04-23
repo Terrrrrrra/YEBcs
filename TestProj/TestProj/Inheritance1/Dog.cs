@@ -28,5 +28,10 @@ namespace TestProj
         {
             Console.WriteLine("강아지가 뛴다!!");
         }
+
+        public override string ToString()
+        {
+            return $"{name}를 출력합니다";
+        }
     }
 }
