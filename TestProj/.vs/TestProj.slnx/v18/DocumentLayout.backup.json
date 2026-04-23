@@ -5,26 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\inheritance2\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\inheritance2\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\inheritance2\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\inheritance2\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\inheritance2\\ihit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\inheritance2\\ihit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\inheritance2\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\inheritance2\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\inheritance2\\iattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\inheritance2\\iattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,78 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Skeleton.cs",
-              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\Skeleton.cs",
-              "RelativeDocumentMoniker": "TestProj\\Inheritance2\\Skeleton.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\Skeleton.cs",
-              "RelativeToolTip": "TestProj\\Inheritance2\\Skeleton.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:49:24.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAttack.cs",
-              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\IAttack.cs",
-              "RelativeDocumentMoniker": "TestProj\\Inheritance2\\IAttack.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\IAttack.cs",
-              "RelativeToolTip": "TestProj\\Inheritance2\\IAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:46:21.722Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IHit.cs",
-              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\IHit.cs",
-              "RelativeDocumentMoniker": "TestProj\\Inheritance2\\IHit.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\IHit.cs",
-              "RelativeToolTip": "TestProj\\Inheritance2\\IHit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:36:38.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Goblin.cs",
-              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\Goblin.cs",
-              "RelativeDocumentMoniker": "TestProj\\Inheritance2\\Goblin.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\Goblin.cs",
-              "RelativeToolTip": "TestProj\\Inheritance2\\Goblin.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:31:14.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\Monster.cs",
-              "RelativeDocumentMoniker": "TestProj\\Inheritance2\\Monster.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Inheritance2\\Monster.cs",
-              "RelativeToolTip": "TestProj\\Inheritance2\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T11:27:27.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs",
               "RelativeDocumentMoniker": "TestProj\\Program.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs",
-              "RelativeToolTip": "TestProj\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs*",
+              "RelativeToolTip": "TestProj\\Program.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T08:20:38.358Z",
               "EditorCaption": ""
