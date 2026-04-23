@@ -6,49 +6,53 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            // 값 타입, 참초 타입
-            // 값 타입 : 변수 자체에 값이 들어가 있는 형태
-            // 참조 타입 : 변수엔 객체의 주소가 들어가있는 형태
-            int num1 = 5;
-            print($"함수 호출전 : {num1}");
-            Sum(ref num1);
-            print($"함수 호출후 : {num1}");
-
-            int num2;
-            // print($"num2 함수 호출전 : {num2}");
-            GetNum(out num2);
-            print($"num2 함수 호출후 : {num2}");
-
-            GetNum(out int num3);
-            print($"num3 함수 호출후 : {num3}");
-
+            int[] intArr = { 0, 1, 2, 3 };
             Console.Write("정수 입력 : ");
             string input = Console.ReadLine();
-            // int inputNum = int.Parse(input);
-            int.TryParse(input, out int inputNum);
-            print($"입력받은 숫자 : {inputNum}");
+            int inputNum = -1;
+            int curNum = -1;
+
+            try
+            {
+                inputNum = int.Parse(input);
+                curNum = intArr[4];
+            }
+            catch (FormatException ex)
+            {
+                print("정수로 입력하세요!");
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                print("인덱스 범위 벗어남!");
+            }
+            catch (Exception ex)
+            {
+                print(ex.Message);
+            }
+
+            print(inputNum);
+            print(curNum);
+
+
+            Console.Write("정수 입력 : ");
+            string input2 = Console.ReadLine();
+            TryParse(input2, out int inputNum2);
+            print($"입력한 정수 : {inputNum2}");
         }
 
-
-        // ref를 통해 매개변수를 넘겨주면 원본을 보내준다
-        static void Sum(ref int num1)
+        static void TryParse(string s, out int num)
         {
-            num1 += 100;
+            try
+            {
+                num = int.Parse(s);
+                print("변환 성공!");
+            }
+            catch
+            {
+                num = 0;
+                print("변환 실패...");
+            }
         }
-
-        // 값 타입 변수는 매개변수로 넘길 때 복사되어서 넘어간다
-        static void Sum2(int num1)
-        {
-            num1 += 100;
-        }
-
-        // out 키워드는 초기화되지 않은 변수를 초기화시켜서 내보낸다
-        static void GetNum(out int num)
-        {
-            num = 35;
-        }
-
-
 
 
         static void print(object obj)
