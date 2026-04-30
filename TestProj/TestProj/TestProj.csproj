@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Bottle.cs" />
     <Compile Include="DataType\MyStack.cs" />
+    <Compile Include="DelePrac.cs" />
     <Compile Include="Inheritance1\Animal.cs" />
     <Compile Include="Inheritance1\Bird.cs" />
     <Compile Include="Inheritance1\Dog.cs" />

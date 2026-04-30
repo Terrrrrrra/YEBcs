@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\bottle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\bottle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Bottle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:TestProj\\Bottle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\DelePrac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:TestProj\\DelePrac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,10 +64,21 @@
               "RelativeDocumentMoniker": "TestProj\\Bottle.cs",
               "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Bottle.cs",
               "RelativeToolTip": "TestProj\\Bottle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-30T10:45:50.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T11:56:00.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DelePrac.cs",
+              "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\DelePrac.cs",
+              "RelativeDocumentMoniker": "TestProj\\DelePrac.cs",
+              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\DelePrac.cs",
+              "RelativeToolTip": "TestProj\\DelePrac.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T11:20:37.412Z"
             },
             {
               "$type": "Document",
@@ -73,7 +88,7 @@
               "RelativeDocumentMoniker": "TestProj\\Program.cs",
               "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs",
               "RelativeToolTip": "TestProj\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAkwAoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T08:20:38.358Z",
               "EditorCaption": ""

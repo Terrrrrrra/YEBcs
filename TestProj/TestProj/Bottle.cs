@@ -4,6 +4,7 @@ namespace TestProj
 {
     internal class Bottle
     {
+        internal event Action<float> WaterEvent;
         private float _water;
 
         internal float Water
@@ -23,7 +24,7 @@ namespace TestProj
                     _water = 1000;
                     Console.WriteLine("물이 넘쳤다!");
                 }
-                Console.WriteLine(_water);
+                WaterEvent?.Invoke(_water);
             }
         }
 
