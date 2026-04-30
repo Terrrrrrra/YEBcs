@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\inheritance1\\dog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|c:\\users\\jksjk\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\yebcs\\testproj\\testproj\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\testproj\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B21275DE-AF9A-4965-92F1-7C008C978F15}|TestProj\\TestProj.csproj|solutionrelative:testproj\\zoo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -66,8 +66,7 @@
               "RelativeToolTip": "TestProj\\Inheritance1\\Dog.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T10:42:06.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T10:42:06.803Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "TestProj\\Zoo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T11:23:49.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-23T11:23:49.77Z"
             },
             {
               "$type": "Document",
@@ -88,9 +86,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs",
               "RelativeDocumentMoniker": "TestProj\\Program.cs",
-              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs",
-              "RelativeToolTip": "TestProj\\Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDUAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jksjk\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\YEBcs\\TestProj\\TestProj\\Program.cs*",
+              "RelativeToolTip": "TestProj\\Program.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAswEUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T08:20:38.358Z",
               "EditorCaption": ""
