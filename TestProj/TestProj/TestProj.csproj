@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataType\MyStack.cs" />
     <Compile Include="Inheritance1\Animal.cs" />
     <Compile Include="Inheritance1\Bird.cs" />
     <Compile Include="Inheritance1\Dog.cs" />
