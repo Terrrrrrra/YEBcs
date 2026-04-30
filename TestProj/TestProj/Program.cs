@@ -7,31 +7,20 @@ namespace TestProj
     {
         static void Main(string[] args)
         {
-            Stack<string> strStack = new Stack<string>();
-            strStack.Push("보라돌이");
-            strStack.Push("뚜비");
-            strStack.Push("나나");
-            strStack.Push("뽀");
-            print(strStack.Count);
+            Bottle bottle = new Bottle();
+            bottle.Max = 1000;
 
-            print(strStack.Pop()); // 맨 위에있는걸 꺼냄
-            print(strStack.Count);
-            print(strStack.Peek()); // 맨 위에있는걸 확인함
-            print(strStack.Count);
+        
+            bottle.Water += 100;
+            bottle.Water += 200;
+            bottle.Water -= 150;
+            bottle.Water -= 250;
+            bottle.Water -= 250;
+            bottle.Water -= 250;
+            bottle.Water -= 250;
 
-            print("\n================================\n");
-
-            Queue<string> strQueue = new Queue<string>();
-            strQueue.Enqueue("보라돌이");
-            strQueue.Enqueue("뚜비");
-            strQueue.Enqueue("나나");
-            strQueue.Enqueue("뽀");
-
-            print(strQueue.Count);
-            print(strQueue.Dequeue());
-            print(strQueue.Count);
-            print(strQueue.Peek());
-            print(strQueue.Count);
+            bottle.Water += 700;
+            bottle.Water += 700;
         }
 
 
